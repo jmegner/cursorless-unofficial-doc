@@ -37,9 +37,9 @@ Here are some of the most useful actions:
   - `"change T"`: delete `T` and set cursor(s) to where `T` was; [delimiters](#delimiters) are unchanged.
   - `"drink/pour T"`: edit new line before/after `T`.
 - IDE-related
-  - `"follow T"`: open URL or go to definition of T.
-  - `"quick fix T"`: show available quick fixes for T (eg rename, extract variable, etc).
-  - `"reference T"`: show references to T.
+  - `"follow T"`: open URL or go to definition of `T`.
+  - `"quick fix T"`: show available quick fixes for `T` (eg rename, extract variable, etc).
+  - `"reference T"`: show references to `T`.
   - `"rename T"`: invokes the built-in IDE rename operation on `T`, which will update all references to the given variable to the new name.
 
 ## Important modifiers
