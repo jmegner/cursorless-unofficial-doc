@@ -27,7 +27,7 @@ Here are some of the most useful actions:
 - Clipboard
   - `"paste to T"`: replace `T` with clipboard contents.
   - `"paste before/after T"`: insert clipboard contents before/after `T`, including appropriate [delimiters](#delimiters).
-  - `"carve/copy T"`: cut/copy `T`.
+  - `"carve/copy T"`: cut/copy `T` to the clipboard.
 - Changing text
   - `"bring T"`: insert a copy of `T` at the cursor/selection.
   - `"bring T1 to T2"`: replace `T2` with a copy of `T1`.
@@ -69,12 +69,12 @@ Some examples:
 - `"[number] [scope]s backward"`, like `"chuck three lines backward row 12"` to delete rows 10-12.
 - `"[nth] [scope]"`, like `"chuck second word air"` to delete "Banana" from "appleBananaCherry".
 - `"[nth] last [scope]"`, like `"chuck last char air"` to delete "s" from "apples".
-- `"next/previous [scope]"`, like `"chuck until next token"` to delete everything from the cursor/selection to the next token, or `"copy next funk"` to copy the next function after your cursor
+- `"next/previous [scope]"`, like `"chuck until next token"` to delete everything from the cursor/selection to the next token, or `"copy next funk"` to copy the next function after your cursor to your clipboard.
 
 `"past"`, `"until"`, and `"and"` are good ways to build up targets.
 
 - `"chuck row 7 past row 9"` to delete rows 7 through 9.
-- `"chuck air until bat"` to delete tokens starting at the air token ending just before the bat token.
+- `"chuck air until bat"` to delete tokens starting at the air token (included) and ending just before the bat token (excluded).
 - `"chuck row 7 and row 10"` to delete rows 7 and 10.
 
 There is also `"head"` and `"tail"` to expand a target through to the beginning or end of the line.
