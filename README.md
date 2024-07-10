@@ -48,7 +48,7 @@ Here are some very useful modifiers:
 
 - Syntactic scopes ([reference](https://www.cursorless.org/docs/#syntactic-scopes)) are great for expanding the target to what you want to operate on, like the containing function.
   - `"arg"` and `"item"`: for items in a comma-separated list, like `"chuck item air"` or `"bring air after arg bat"`.
-    Commas are inserted / removed as necessary to keep things syntactically valid.
+    Commas are inserted/removed as necessary to keep things syntactically valid.
     `"item"` works for all comma-separated items;
     `"arg"` only targets function arguments/parameters
   - `"funk"` for a function definition/declaration.
