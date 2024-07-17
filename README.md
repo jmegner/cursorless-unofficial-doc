@@ -136,7 +136,7 @@ If you have the sentence `apple banana cherry` and run the command `"chuck bat"`
 
 Here are some target types and their delimiters...
 
-- Character or word within a token: nothing.
+- Character or word within a token: no delimiter.
 - Token: space.
 - Argument or item: comma and space.
 - Line: line ending.
