@@ -62,6 +62,8 @@ Here are some very useful modifiers:
   - [`"word"`](https://www.cursorless.org/docs/#word) allows you to refer to words within a snake_case or camelCase token.
   - [`"char"`](https://www.cursorless.org/docs/#char) for individual characters.
 
+Be sure to check out the [scope visualizer](https://www.cursorless.org/docs/user/scope-visualizer/) so you can see scopes while you edit/view a document.
+
 And you can reuse the above scopes when using [relative/ordinal modifiers](https://www.cursorless.org/docs/#previous--next--ordinal--number).
 Some examples:
 
@@ -301,7 +303,7 @@ Similar things can be done on characters, like `"chuck last char air"` to delete
 
 ### Arg and item changes
 
-The `"arg"` (argument to a function call) and `"item"` (item in a list, map, or object) modifiers are often helpful because they are comma-aware.
+The `"arg"` (function argument) and `"item"` (item in a list, map, or object) modifiers are often helpful because they are comma-aware.
 
 - `"chuck arg bat"` is a good way to go from `someFunction(apple, banana + otherStuff, cherry)` to `someFunction(apple, cherry)`.
   The command deletes the argument and the appropriate delimiters (comma and a space).
