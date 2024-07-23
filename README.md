@@ -62,7 +62,7 @@ Here are some very useful modifiers:
   - [`"word"`](https://www.cursorless.org/docs/#word) allows you to refer to words within a snake_case or camelCase token.
   - [`"char"`](https://www.cursorless.org/docs/#char) for individual characters.
 
-Be sure to check out the [scope visualizer](https://www.cursorless.org/docs/user/scope-visualizer/) so you can see scopes while you edit/view a document.  The scope visualizer really helps you get the hang of exactly what the scopes are and which ones are useful.  Just click on the Cursorless icon in the vscode side bar to try it out.
+Be sure to check out the [scope visualizer](https://www.cursorless.org/docs/user/scope-visualizer/) so you can see scopes while you edit/view a document.  The scope visualizer really helps you get the hang of exactly what the scopes are and which ones are useful.  Just click on the Cursorless icon in the vscode side bar or say the command "bar cursorless" to try it out.
 
 And you can reuse the above scopes when using [relative/ordinal modifiers](https://www.cursorless.org/docs/#previous--next--ordinal--number).
 Some examples:
